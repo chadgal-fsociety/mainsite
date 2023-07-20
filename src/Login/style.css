@@ -1,0 +1,95 @@
+.loginwrapper{
+
+        min-height: 720px;
+        overflow: hidden;
+}
+
+.loginwrapper{ 
+        background: rgba(58, 58, 58, 0.4);
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        overflow: hidden;
+        right: 0;
+        bottom: 0;
+        content: '';
+        z-index: 1;
+}
+
+
+.social_links{
+        border-left: 1px solid rgba(255,255,255,0.2);
+        padding-left: 15px;
+        margin-left: 15px;
+        margin-right: 85px;
+}
+
+a{
+        text-decoration: none;
+        color: #fff;
+        padding-left: 5px;
+}
+a:hover{
+        text-decoration: none;
+        color: #fff;
+        opacity: 0.5;
+        transition: ease-in-out 0.2s;
+        
+}
+#logo:hover{
+        text-decoration: none;
+        opacity: 1;
+}
+.main-frame{
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        top: 10%;
+}
+
+.inner-frame{
+    max-width: 420px;
+    margin: auto;
+    margin-top: 150px;
+}
+.form-control:focus{
+        background: transparent;
+        color: #fff;
+        text-transform: uppercase;
+}
+
+
+.form-control{
+        /* background: rgba(255,255,255,0.05); */
+        background: transparent;
+        border-radius: 10px;
+        border: 1px solid #8e8a8d;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        backdrop-filter: blur(5px);
+}
+.form-floating>label{
+        color: #fff;
+    }
+    .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #fff;
+        opacity: 1; /* Firefox */
+      }
+
+@media only screen and (max-width: 992px) {
+        .headerlogo{
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+        }
+        
+}
+@media only screen and (max-width: 500px) {
+        .headerright{
+                text-align: center;
+                justify-content: center;
+        }
+}
